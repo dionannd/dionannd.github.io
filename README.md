@@ -1,2 +1,5 @@
-# dionannd.github.io
-Personal Date
+# My Curriculum Vitae
+- Personal Date
+- About Me
+- My Project
+- Get in touch
