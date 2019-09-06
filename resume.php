@@ -65,7 +65,7 @@
                     <h4 class="sub-title">My Academic Qualifications</h4>
                 </div>
                 <div class="col-xs-4 col-sm-1 col-lg-1 text-right">
-                    <a href="index.php" class="btn-close hover-animate"></a>
+                    <a href="index.html" class="btn-close hover-animate"></a>
                 </div>
             </div>
             <!-- end row -->
