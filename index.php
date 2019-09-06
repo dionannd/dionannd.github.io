@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Dion | Home</title>
+    <meta name="author" content="dion" />
+    <meta name="keywords" content="dion cv, cvdion, curriculum vitae dion, cv, dion, daftar riwayat hidup dion" />
+    <meta name="description" content="Dion CV - resume with html, css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Font Awesome -->
+    <link type="text/css" media="all" href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Libs CSS -->
+    <link type="text/css" media="all" href="assets/boostrap-files/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Animate CSS -->
+    <link type="text/css" media="all" href="assets/css/animate.css" rel="stylesheet" />
+    <!-- Template CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+    <link type="text/css" media="all" href="assets/css/contact.form.css" rel="stylesheet" />
+    <link type="text/css" media="all" href="assets/css/style.css" rel="stylesheet" />
+    <!-- Switcher CSS -->
+    <link type="text/css" media="all" href="assets/css/switcher.css" rel="stylesheet" />
+    <link href="assets/css/colour-scheme/color-blue.css" rel="stylesheet" type="text/css" data-color="color-blue" media="all" id="stylesheet-new">
+    <!-- Responsive CSS -->
+    <link type="text/css" media="all" href="assets/css/respons.css" rel="stylesheet" />
+    <!-- Style Switcher -->
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" href="assets/img/favicons/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="assets/img/favicons/favicon.png" />
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+    <!-- Load page -->
+    <div class="animationload">
+        <div class="loader"></div>
+    </div>
+    <!-- End load page -->
+
+    <div id="wraper">
+
+        <!-- Start Home-header section -->
+        <section class="home-header border-bottom padding-block">
+            <!-- start container -->
+            <div class="container">
+                <!-- start row -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-5 col-lg-5 text-right">
+                        <!-- Your foto -->
+                        <div class="foto">
+                            <!-- for man -->
+                            <img src="./assets/img/photo.png" alt="dion">
+                            <!-- for women -->
+                            <!-- <img src="./assets/img/photo_female.png" alt="Ukieweb"> -->
+                        </div>
+                        <!-- end your foto -->
+                    </div>
+                    <div class="col-xs-12 col-sm-7 col-lg-7">
+                        <!-- Your Name -->
+                        <h1 class="title">Dian Ananda</h1>
+                        <!-- Your Profession -->
+                        <h3 class="sub-title">Web Developer & Designer</h3>
+                        <!-- social icon -->
+                        <div class="social">
+                            <ul class="animated" data-animation="fadeIn" data-animation-delay="600">
+                                <!-- social icons -->
+                                <li><a class="ukie-icons hover-animate" href="https://web.facebook.com/dion.ananda"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="ukie-icons hover-animate" href="https://twitter.com/Dionannd"><i class="fa fa-twitter"></i></a></li>
+                                <li><a class="ukie-icons hover-animate" href="https://www.instagram.com/dion.an/?hl=id"><i class="fa fa-instagram"></i></a></li>
+                                <li><a class="ukie-icons hover-animate" href="https://www.linkedin.com/in/dian-ananda-552a79152/"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a class="ukie-icons hover-animate" href="https://github.com/dionannd"><i class="fa fa-github"></i></a></li>
+                                <!--
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-behance"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-digg"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-deviantart"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-envelope-square"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-delicious"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-dropbox"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-skype"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-tumblr"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-vimeo-square"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-flickr"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-github-alt"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-renren"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-vk"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-xing"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-weibo"></i></a></li>
+                                    <li><a class="ukie-icons hover-animate" href="#"><i class="fa fa-rss"></i></a></li>
+                                -->
+                            </ul>
+                        </div>
+                        <!-- end social icon -->
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </section>
+        <!-- End Home-header section -->
+
+        <!-- Start Menu section -->
+        <nav class="menu">
+            <!-- start container -->
+            <div class="container">
+                <!-- start row -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-lg-12">
+
+                        <!-- start menu block (profile) -->
+                        <a href="profile.php" class="menu-li">
+                            <!-- img menu block -->
+                            <span class="foto">
+                                <!-- for man -->
+                                <img src="./assets/img/menu/profile.png" class="menu-img" data-img-name="profile" alt="dion" />
+                                <!-- for women -->
+                                <!--  <img src="./assets/img/menu/profile_female.png" class="menu-img" data-img-name="profile_female" alt="Ukieweb" /> -->
+                            </span>
+                            <!-- name menu block -->
+                            <span class="name">Profile</span>
+                        </a>
+                        <!-- end menu block (profile) -->
+
+                        <!-- start menu block (resume) -->
+                        <a href="resume.php" class="menu-li">
+                            <!-- img menu block -->
+                            <span class="foto">
+                                <img src="./assets/img/menu/resume.png" class="menu-img" data-img-name="resume" alt="dion">
+                            </span>
+                            <!-- name menu block -->
+                            <span class="name">Resume</span>
+                        </a>
+                        <!-- end menu block (resume) -->
+
+                        <!-- start menu block (portfolio) -->
+                        <a href="portfolio.php" class="menu-li">
+                            <!-- img menu block -->
+                            <span class="foto">
+                                <img src="./assets/img/menu/portfolio.png" class="menu-img" data-img-name="portfolio" alt="dion">
+                            </span>
+                            <!-- name menu block -->
+                            <span class="name">Portfolio</span>
+                        </a>
+                        <!-- end menu block (portfolio) -->
+
+                        <!-- start menu block (contact) -->
+                        <a href="contact.php" class="menu-li">
+                            <!-- img menu block -->
+                            <span class="foto">
+                                <img src="./assets/img/menu/contact.png" class="menu-img" data-img-name="contact" alt="dion">
+                            </span>
+                            <!-- name menu block -->
+                            <span class="name">Contact</span>
+                        </a>
+                        <!-- end menu block (contact) -->
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </nav>
+        <!-- End Menu section -->
+
+        <!-- Start Footer section -->
+        <footer class="footer">
+            <!-- start container -->
+            <div class="container">
+                <!-- start row -->
+                <div class="row">
+                    <!-- start phone number -->
+                    <div class="col-xs-12 col-sm-6 col-lg-3">
+                        <a href="javascript:void(0);" class="hover-animate">
+                            <span class="ukie-icons hover-animate"><i class="fa fa-phone"></i></span> +62 896-2777-3145
+                        </a>
+                    </div>
+                    <!-- end phone number -->
+                    <!-- start email -->
+                    <div class="col-xs-12 col-sm-6 col-lg-3">
+                        <a href="javascript:void(0);" class="hover-animate">
+                            <span class="ukie-icons hover-animate"><i class="fa fa-paper-plane"></i></span> dionananda77@gmail.com
+                        </a>
+                    </div>
+                    <!-- end email -->
+                    <!-- start address -->
+                    <div class="col-xs-12 col-sm-6 col-lg-3">
+                        <a href="javascript:void(0);" class="hover-animate">
+                            <span class="ukie-icons hover-animate"><i class="fa fa-map-marker"></i></span> Jl. Bojongsari, jatisari, Bekasi
+                        </a>
+                    </div>
+                    <!-- end address -->
+                    <!-- start Copyright -->
+                    <div class="col-xs-12 col-sm-6 col-lg-3 text-right">
+                        <span class="copyright">Copyright © 2019 | All right reserved.</span>
+                    </div>
+                    <!-- end Copyright -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </footer>
+        <!-- End Footer section -->
+
+    </div>
+
+    <!-- Scroll to Top -->
+    <a href="#" class="btn hover-animate scrollToTop"><i class="fa fa-angle-up"></i></a>
+    <!-- End Scroll to Top -->
+
+<!-- Scripts -->
+<script src="assets/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="assets/boostrap-files/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.appear.js" type="text/javascript"></script>
+<script src="assets/js/jquery.mixitup.min.js" type="text/javascript"></script>
+<script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.inview.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.knob.min.js" type="text/javascript"></script>
+<script src="assets/js/jquery.cookie.js" type="text/javascript"></script>
+<script src="assets/js/jquery.ratyli.js" type="text/javascript"></script>
+<script src="assets/js/modernizr.custom.js" type="text/javascript"></script>
+<script src="assets/js/contact_scripts.js" type="text/javascript"></script>
+<script src="assets/js/scripts.js" type="text/javascript"></script>
+
+</body>
+</html>
