@@ -1,14 +1,7 @@
 DirectoryIndex index.html
-ErrorDocument 404 error.html
+ErrorDocument 404 /error.html
+
 RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^www.dionannd.github.io [NC]
-RewriteRule ^(.*)$ http://dionannd.github.io/$1 [L,R=301]
-
-<IfModule mod_rewrite.c>
-RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
-</IfModule>
-
