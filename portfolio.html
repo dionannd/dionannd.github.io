@@ -38,6 +38,15 @@
     <link rel="shortcut icon" href="assets/img/favicons/favicon.png" />
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
+
+   <!-- CSS -->
+    <style type="text/css">
+        video {
+            width: 100%;
+            max-height: 100%;
+        }
+    </style>
+
 </head>
 <body>
 
@@ -167,8 +176,8 @@
 
                                     <div class="hidden">
                                         <div class="podrt-desc" id="work-2">
-                                            <div class="modal-box-content" id="videoModal">
-                                                <video id="video" width="770" height="433" controls>
+                                            <div class="modal-box-content">
+                                                <video id="video" controls>
                                                     <source src="assets/video/project.mp4" type="video/mp4">
                                                 Your browser does not support the video tag.
                                                 </video>
@@ -201,8 +210,8 @@
 
                                     <div class="hidden">
                                         <div class="podrt-desc" id="work-3">
-                                            <div class="modal-box-content" id="videoModal">
-                                                <video id="video" width="770" height="433" controls>
+                                            <div class="modal-box-content">
+                                                <video id="video" controls>
                                                     <source src="assets/video/resume.mp4" type="video/mp4">
                                                 Your browser does not support the video tag.
                                                 </video>
@@ -266,8 +275,8 @@
 
                                     <div class="hidden">
                                         <div class="podrt-desc" id="work-5">
-                                            <div class="modal-box-content" id="videoModal">
-                                                <video id="video" width="770" height="433" controls>
+                                            <div class="modal-box-content">
+                                                <video id="video" controls>
                                                     <source src="assets/video/chinematic.mp4" type="video/mp4">
                                                 Your browser does not support the video tag.
                                                 </video>
@@ -300,8 +309,8 @@
 
                                     <div class="hidden">
                                         <div class="podrt-desc" id="work-6">
-                                            <div class="modal-box-content" id="videoModal">
-                                                <video id="video" width="769" height="433" controls>
+                                            <div class="modal-box-content">
+                                                <video id="video" controls>
                                                     <source src="assets/video/syukuran.mp4" type="video/mp4">
                                                 Your browser does not support the video tag.
                                                 </video>
@@ -500,13 +509,10 @@
 <script src="assets/js/contact_scripts.js" type="text/javascript"></script>
 <script src="assets/js/scripts.js" type="text/javascript"></script>
 
-<script>
+<script type="text/javascript">
     $(document).ready(function(){
-        var video = document.getElementById("video");
-        $('#videoModal').on('hidden.bs.modal', function(){
-            $('#video').get(0).stopVideo();
-           // or remove video url
-           $('#video').attr('src', '');         
+        $('.hidden').on('hidden.bs.modal', function(e){
+            $(".hidden video").attr("src", $(".hidden video").attr("src"));
         });
     })
 </script>
