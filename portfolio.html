@@ -273,7 +273,7 @@
                                         <a class="fancybox popup-content view-work hover-animate" href="#work-5" rel="mygallery">View details</a>
                                     </div>
 
-                                    <div class="hidden">
+                                    <div class="hidden" id="modal">
                                         <div class="podrt-desc" id="work-5">
                                             <div class="modal-box-content">
                                                 <video id="video" controls>
@@ -310,8 +310,8 @@
                                     <div class="hidden">
                                         <div class="podrt-desc" id="work-6">
                                             <div class="modal-box-content">
-                                                <video id="video" controls>
-                                                    <source src="assets/video/syukuran.mp4" type="video/mp4">
+                                                <video controls>
+                                                    <source src="assets/video/syukuran.mp4" type="video/mp4" id="video">
                                                 Your browser does not support the video tag.
                                                 </video>
                                                 <div class="text">
@@ -511,9 +511,10 @@
 
 <script type="text/javascript">
     $(document).ready(function(){
-        $('.hidden').on('hidden.bs.modal', function(e){
-            $(".hidden video").attr("src", $(".hidden video").attr("src"));
-        });
+        var video = document.getElementById('video');
+        $('.fancybox-close').click(function(){
+            video.stop();
+        })
     })
 </script>
 

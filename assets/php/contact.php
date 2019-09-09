@@ -11,9 +11,9 @@ $message = 'Name: ' . $name . '<br /> Email: ' . $email . '<br />Message: ' . $m
 
 $subject = 'Subject';
 
-$headers = "From: Dionannd <" . $to . ">" . "\r\n" .
-"Return-Path: You company <dionananda77@gmail.com>\r\n" .
-"Reply-To: Dionannd <" . $to . ">" . "\r\n" .
+$headers = "From: Dian Ananda <" . $to . ">" . "\r\n" .
+"Return-Path: Dian Ananda <dionananda77@gmail.com>\r\n" .
+"Reply-To: Dian Ananda <" . $to . ">" . "\r\n" .
 "MIME-Version: 1.0\r\n" .
 "Content-type: text/html; charset=iso-8859-1\r\n" .
 "X-Priority: 3\r\n" .
