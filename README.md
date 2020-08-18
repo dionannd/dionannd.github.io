@@ -1,5 +1,5 @@
 # My Curriculum Vitae
-- Personal Date
+- Personal Data
 - About Me
 - My Project
 - Get in touch
