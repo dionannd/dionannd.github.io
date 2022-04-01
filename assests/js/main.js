@@ -1,4 +1,4 @@
-/* Show Menu  */
+// Show menu
 const showMenu = (toggleId, navId) => {
   const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId);
@@ -11,7 +11,7 @@ const showMenu = (toggleId, navId) => {
 };
 showMenu("nav-toggle", "nav-menu");
 
-/* Remove menu */
+// Remove menu
 const navLink = document.querySelectorAll(".nav__link");
 
 function linkAction() {
@@ -20,7 +20,7 @@ function linkAction() {
 }
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
-/* Scroll to section */
+// Scroll to section
 const sections = document.querySelectorAll("section[id]");
 
 function scrollActive() {
@@ -44,7 +44,7 @@ function scrollActive() {
 }
 window.addEventListener("scroll", scrollActive);
 
-/* Show scroll top */
+// Show scroll Top
 function scrollTop() {
   const scrollTop = document.getElementById("scroll-top");
   if (this.scrollY >= 200) scrollTop.classList.add("show-scroll");
@@ -113,4 +113,5 @@ function generateResume() {
 resumeButton.addEventListener("click", () => {
   scaleCv();
   generateResume();
+  setTimeout(removeScale, 5000);
 });
