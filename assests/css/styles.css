@@ -5,6 +5,7 @@
 :root {
   --header-height: 3rem;
 
+  /* Colors */
   --title-color: #0b0a0a;
   --text-color: #403a3a;
   --text-color-light: #707070;
@@ -12,6 +13,7 @@
   --container-color-alt: #f0efef;
   --body-color: #fcfcfc;
 
+  /* Font Typography */
   --body-font: "Poppins", sans-serif;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -20,13 +22,16 @@
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
 
+  /* Font Weight */
   --font-medium: 500;
   --font-semibold: 600;
 
+  /* Margin */
   --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
 
+  /* z index */
   --z-tooltip: 10;
   --z-fixed: 100;
 }
@@ -248,7 +253,7 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
-  box-shadow: 0 -1px 4px rgba(0, 0, 0, 1);
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
 }
 
@@ -268,7 +273,7 @@ img {
     width: 100%;
     padding: 2rem 1.5rem;
     background-color: var(--body-color);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 1);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     border-radius: 1rem 1rem 0 0;
     z-index: var(--z-fixed);
     transition: 0.3s;
@@ -316,6 +321,10 @@ img {
 /* Show menu */
 .show-menu {
   bottom: var(--header-height);
+}
+
+.active-link {
+  color: var(--title-color);
 }
 
 /* Home */
