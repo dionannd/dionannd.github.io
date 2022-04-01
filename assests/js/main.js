@@ -98,9 +98,9 @@ let resumeButton = document.getElementById("resume-button");
 // html2pdf Options
 let opt = {
   margin: 0,
-  filename: "myResume.pdf",
+  filename: "Dian_Resume.pdf",
   image: { type: "jpeg", quality: 0.98 },
-  html2canvas: { scale: 4 },
+  html2canvas: { scale: 2 },
   jsPDF: { format: "a4", orientation: "portrait" },
 };
 
