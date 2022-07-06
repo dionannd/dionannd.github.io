@@ -65,6 +65,7 @@ body.dark-theme {
   color: var(--text-color);
   font-size: 1.2rem;
   cursor: pointer;
+  transition: color 0.3s ease-in-out;
 }
 
 .change-theme:hover {
@@ -120,8 +121,8 @@ body.scale-cv {
 }
 
 .scale-cv .home__img {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
 }
 
 .scale-cv .home__container {
@@ -155,15 +156,15 @@ body.scale-cv {
 
 .scale-cv .education__rounder,
 .scale-cv .experience__rounder {
-  width: 11px;
-  height: 11px;
+  width: 10px;
+  height: 10px;
   margin-top: 0.22rem;
 }
 
 .scale-cv .education__line,
 .scale-cv .experience__line {
   width: 1px;
-  height: 110%;
+  height: 100%;
   transform: translate(5px, 0);
 }
 
