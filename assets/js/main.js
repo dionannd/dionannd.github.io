@@ -98,10 +98,10 @@ let resumeButton = document.getElementById("resume-button");
 // html2pdf Options
 let opt = {
   margin: 0,
-  filename: "Dian_Resume.pdf",
+  filename: "Resume_Dian-Ananda.pdf",
   image: { type: "jpeg", quality: 0.98 },
   html2canvas: { scale: 2 },
-  jsPDF: { format: "a4", orientation: "portrait" },
+  jsPDF: { orientation: "p", unit: "mm", format: "a4" },
 };
 
 // areaCv & html2pdf options
